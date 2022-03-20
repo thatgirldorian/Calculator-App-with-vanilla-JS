@@ -35,7 +35,7 @@ header {
     /* font-family: 'Ubuntu', sans-serif; */
     padding-top: 10px;
     padding-bottom: 10px;
-    font-size: 28px;
+    font-size: 30px;
     }
 
 
@@ -66,7 +66,7 @@ header {
 
 .calc-buttons {
     position: relative;
-    left: 1%;
+    left: 2%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -85,8 +85,11 @@ header {
     margin-top: 30px;
     padding-left: 25px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
     border-radius: 8px;
     cursor: pointer;
+    box-shadow: 2px 2px 1px 1px grey;
+    font-size: 16px;
 }
 
 .delete {
@@ -94,6 +97,7 @@ header {
     color: white;
     padding-left: 15px;
     background-color: #1A132F;
+    box-shadow: 2px 2px 1px 1px black;
 }
 
 .other-buttons  {
@@ -105,22 +109,26 @@ header {
     display: inline-block;
     padding: 12px 25px 12px 25px;
     margin-right: 6px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-top:  20px;
-    margin-left: 20px;
+    margin-left: 24px;
     width: 160px;
     font-family: 'Montserrat', sans-serif;
     border-radius: 8px;
     cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .reset {
     background-color: #1A132F;
     color: white;
     border: 1px solid #1A132F;
+    box-shadow: 2px 2px 1px 1px black;
 }
 
 .equal {
     background-color: #61A4BC;
     border: 1px solid #61A4BC;
+    box-shadow: 2px 2px 1px 1px black;
 }
