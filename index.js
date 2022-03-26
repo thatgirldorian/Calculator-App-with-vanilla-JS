@@ -1,12 +1,5 @@
-//Fix screen display and show numbers when they're clicked 
-// const screen = document.getElementById('display')
 
-// screen.addEventListener('click', function onClick(event) {
-//   // 👇️ change background color
-//     screen.style.backgroundColor = 'salmon';
-// });
-
-// //Create a way to group calculator buttons
+//Create a way to show operations on the screen
 const screen = document.getElementById("display")
     
         function clearScreen() {
