@@ -177,9 +177,8 @@ input {
 /* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
     body {
-    background-color: yellow;
+    background-color: pink;
     margin-right: 10px;
-    margin-left: 30px;
-    max-width: 300px;
-    
+    max-width: 300px;  
+}
 }
