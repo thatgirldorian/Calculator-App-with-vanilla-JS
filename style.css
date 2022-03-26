@@ -174,11 +174,8 @@ input {
     body {
     max-width: 300px; 
     margin-right: 10px;
-    margin-left: 10px; 
 }
-
-
-    footer {
+footer {
         text-align: center;
     }
 }
