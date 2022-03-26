@@ -172,6 +172,9 @@ input {
 
 /* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
+.main {
+    margin: 20px;
+}
 
 .calc-container {
     width: 100%;
@@ -181,6 +184,8 @@ input {
     padding-right: 60px;
     /* margin-top: 10%;
     margin-bottom: 10%;
+    */
+}
 }
 
 
