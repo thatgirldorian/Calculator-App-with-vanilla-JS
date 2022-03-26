@@ -52,15 +52,16 @@ header {
 
 .screen1 {
     background-color: black;
-    width: 100%;
+    width: 400px;
     border-radius: 8px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 100;
     margin-top: 20px;
     margin-bottom:20px;
     font-weight: 400;
-    height: 100px;
+    height: 20px;
     position: relative;
+    top: -40px;
     overflow-wrap: break-word;
     overflow-x: hidden;
     overflow-y: auto;
@@ -70,9 +71,12 @@ header {
 
 .screen2 {
     background-color: black;
-    width: 100%;
-    font-size: 36px;
+    width: 200px;
+    font-size: 28px;
     border-radius: 8px;
+    position: relative;
+    top: -10px;
+    height: 20px;
 }
 
 
@@ -172,12 +176,9 @@ input {
 
 /* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
-.main {
-    margin: 20px;
-}
 
 .calc-container {
-    width: 100%;
+    width: 80%;
     background-color: white;
     margin-left: 5%;
     margin-right: 10%;
