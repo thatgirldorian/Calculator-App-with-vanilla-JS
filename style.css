@@ -22,6 +22,7 @@ body {
 .calc-container {
     width: 100%;
     background-color: white;
+    margin-left: 2%;
     margin-right: 10%;
     padding-right: 60px;
     /* margin-top: 10%;
