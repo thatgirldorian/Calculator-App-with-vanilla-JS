@@ -169,7 +169,7 @@ input {
     box-shadow: 2px 2px 1px 1px black;
 }
 
-/* Responsive styles for mobile */
+/* Responsive styles for mobile
 @media only screen and (max-width: 600px) {
     body {
         display: flex;
@@ -195,8 +195,7 @@ footer {
         /* margin-top: 20px; */
         /* direction: row; */
         
-    }
-}
+    
 
 /* Footer styles */
 footer {
