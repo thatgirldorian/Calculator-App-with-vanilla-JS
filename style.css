@@ -172,12 +172,21 @@ input {
 /* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
     body {
-    max-width: 600px; 
+        display: flex;
+    max-width: 300px; 
     margin-left: 0;
     margin-right: 0;
 }
 footer {
         text-align: center;
+    }
+
+    .calc-container {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 }
 
