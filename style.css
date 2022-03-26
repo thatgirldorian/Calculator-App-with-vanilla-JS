@@ -6,6 +6,7 @@
 
 body {
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Main container styles */
@@ -22,11 +23,10 @@ body {
 .calc-container {
     width: 100%;
     background-color: white;
-    padding-left: 2%;
-    margin-right: 10%;
-    padding-right: 60px;
-    /* margin-top: 10%;
-    margin-bottom: 10%; */
+    padding-right: 10%;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /* Header styles */
@@ -170,33 +170,20 @@ input {
     box-shadow: 2px 2px 1px 1px black;
 }
 
-/* Responsive styles for mobile
+/* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
-    body {
-        display: flex;
-    max-width: 300px; 
-    margin-left: 0;
-    margin-right: 0;
+
+.calc-container {
+    width: 100%;
+    background-color: white;
+    padding-left: 2%;
+    margin-right: 10%;
+    padding-right: 60px;
+    /* margin-top: 10%;
+    margin-bottom: 10%;
 }
-footer {
-        display: none;
-    }
 
-    .calc-container {
-        width: 80%;
-        padding-right: 10px;
-        padding-left: 5px;
-    }
 
-    .calc-body {
-        width: 400px;
-        height: 70%;
-        border-radius: 8px;
-        background-color: #F7E2E2;
-        /* margin-top: 20px; */
-        /* direction: row; */
-        
-    
 
 /* Footer styles */
 footer {
