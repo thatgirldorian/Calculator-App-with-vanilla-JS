@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
     height: 100vh;
-} */
+}
 
 /* Main container styles */
 .main {
-    margin: 0 auto;
+    margin: auto;
     display:flex;
     max-width: 450px;
     flex-direction: column;
