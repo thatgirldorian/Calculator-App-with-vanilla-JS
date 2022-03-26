@@ -170,9 +170,9 @@ input {
 }
 
 /* Responsive styles for mobile */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
     body {
-    max-width: 300px; 
+    max-width: 350px; 
 }
 footer {
         text-align: center;
