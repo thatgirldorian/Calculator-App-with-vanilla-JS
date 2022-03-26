@@ -47,7 +47,36 @@ header {
     height: 120px;
     border-radius: 8px;
     background-color: black;
+    align-items: flex-end;
 }
+
+.screen1 {
+    background-color: black;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 100;
+    margin-top: 20px;
+    margin-bottom:20px;
+    font-weight: 400;
+    height: 100px;
+    position: relative;
+    overflow-wrap: break-word;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* float:right; */
+    text-align: left;
+}
+
+.screen2 {
+    background-color: black;
+    width: 100%;
+    font-size: 36px;
+    border-radius: 8px;
+}
+
+
+
 
 input {
     color: white;
@@ -55,13 +84,9 @@ input {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
+    text-align: right;
+    border: 0;
 }
-
-input .equal {
-    color: red;
-}
-
-
 
 /* Calculator screen styles */
 

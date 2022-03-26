@@ -8,18 +8,25 @@
 
 // //Create a way to group calculator buttons
 const screen = document.getElementById("display")
+const resultOperation = document.getElementById("result")
     
         function clearScreen() {
             screen.value = "";
+            resultOperation.value = "";
         }
         function calc() {
-            screen.value = "=" + eval(screen.value);
+            resultOperation.value = eval(screen.value);
         }
+        
         function press(x) {
-            screen.value += x;
+            screen.value += x
         }
 
-      //   function press(x) {
-      //     let operation = screen.value += x
-      //     operation.style.color = red;
-      // }
+        function deleteValue() {
+          screen.value = screen.value.slice(0, -1);
+        }
+
+        // function press(x) {
+        //   let operation = screen.value += x
+        //   operation.style.color = "red";
+        // }
