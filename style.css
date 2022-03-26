@@ -172,7 +172,7 @@ input {
 /* Responsive styles for mobile */
 @media only screen and (max-width: 500px) {
     body {
-    max-width: 350px; 
+    max-width: 200px; 
 }
 footer {
         text-align: center;
