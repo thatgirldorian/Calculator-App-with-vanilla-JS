@@ -24,8 +24,8 @@
     background-color:;
     padding-right: 10%;
     padding-left: 5%;
-    margin-top: 20%;
-    /* margin-bottom: 20%; */
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 /* Header styles */
@@ -176,6 +176,10 @@ input {
     /* margin-right: 10px; */
     max-width: 300px;  
 }
+
+    footer {
+        text-align: center;
+    }
 }
 
 /* Footer styles */
@@ -188,5 +192,5 @@ footer {
 a {
     color: #61A4BC;
     text-decoration: none;
-    padding-bottom: 10px;
+    padding-top: 20px;
 }
