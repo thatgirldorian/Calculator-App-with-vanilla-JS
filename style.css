@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 /* Main container styles */
 .main {
     margin: auto;
@@ -46,8 +47,21 @@ header {
     height: 120px;
     border-radius: 8px;
     background-color: black;
-    
 }
+
+input {
+    color: white;
+    padding: 25px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+input .equal {
+    color: red;
+}
+
+
 
 /* Calculator screen styles */
 
@@ -132,3 +146,9 @@ header {
     border: 1px solid #61A4BC;
     box-shadow: 2px 2px 1px 1px black;
 }
+
+
+
+
+
+/* Responsive styles for mobile */

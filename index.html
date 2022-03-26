@@ -16,29 +16,30 @@
         <div class="calc-container">
             <header>CALC</header>
             <div class="calc-screen">
+                <input id="display" class="calc-screen type="text">
             </div>  
             <div class="calc-body">
                 <div class="calc-buttons">
-                    <button id="number" class="col">7</button>
-                    <button id="number" class="col">8</button>
-                    <button id="number" class="col">9</button>
-                    <button class="col delete">DEL</button>
-                    <button class="col">4</button>
-                    <button class="col">5</button>
-                    <button class="col">6</button>
-                    <button class="col">+</button>
-                    <button class="col">1</button>
-                    <button class="col">2</button>
-                    <button class="col">3</button>
-                    <button class="col">-</button>
-                    <button class="col">.</button>
-                    <button class="col">0</button>
-                    <button class="col">/</button>
-                    <button class="col">*</button>
+                    <button onclick="press('7')" class="col">7</button>
+                    <button onclick="press('8')" class="col">8</button>
+                    <button onclick="press('9')" class="col">9</button>
+                    <button onclick="deleteValue()" class="col delete">DEL</button>
+                    <button onclick="press('4')" class="col">4</button>
+                    <button onclick="press('5')" class="col">5</button>
+                    <button onclick="press('6')" class="col">6</button>
+                    <button onclick="press('+')" class="col">+</button>
+                    <button onclick="press('1')" class="col">1</button>
+                    <button onclick="press('2')" class="col">2</button>
+                    <button onclick="press('3')" class="col">3</button>
+                    <button onclick="press('-')"class="col">-</button>
+                    <button onclick="press('.')" class="col">.</button>
+                    <button onclick="press('0')" class="col">0</button>
+                    <button onclick="press('/')" class="col">/</button>
+                    <button onclick="press('*')" class="col">*</button>
                 </div>
                 <div class="other-buttons">
-                    <button class="btn reset" id="reset">RESET</button>
-                    <button class="btn equal">=</button>
+                    <button onclick="clearScreen()" class="btn reset" id="reset">RESET</button>
+                    <button onclick="calc()" class="btn equal">=</button>
                 </div>
             </div>  
         </div>

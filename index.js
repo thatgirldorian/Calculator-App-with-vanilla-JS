@@ -1,21 +1,25 @@
-// //Fix screens display and show numbers when they're clicked 
-// const clickNumber = document.getElementById('number');
+//Fix screen display and show numbers when they're clicked 
+// const screen = document.getElementById('display')
 
-// clickNumber.addEventListener('click', function onClick(event) {
+// screen.addEventListener('click', function onClick(event) {
 //   // 👇️ change background color
-//     document.body.style.backgroundColor = 'salmon';
-
-//   // 👇️ optionally change text color
-//   // document.body.style.color = 'white';
+//     screen.style.backgroundColor = 'salmon';
 // });
 
+// //Create a way to group calculator buttons
+const screen = document.getElementById("display")
+    
+        function clearScreen() {
+            screen.value = "";
+        }
+        function calc() {
+            screen.value = "=" + eval(screen.value);
+        }
+        function press(x) {
+            screen.value += x;
+        }
 
-//Fix screens display and show numbers when they're clicked 
-document.querySelectorAll('button').forEach(el =>{
-  el.addEventListener('click', () =>{
-    digit_pressed(el.textContent);
-  });
-});
-function digit_pressed(digit) {
-  console.log("digit pressed: " + digit);
-}
+      //   function press(x) {
+      //     let operation = screen.value += x
+      //     operation.style.color = red;
+      // }
