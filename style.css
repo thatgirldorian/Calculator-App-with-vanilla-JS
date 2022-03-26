@@ -21,7 +21,7 @@
 /* Container styles */
 .calc-container {
     width: 100%;
-    background-color:;
+    background-color: white;
     padding-right: 10%;
     padding-left: 5%;
     margin-top: 10%;
@@ -172,16 +172,15 @@ input {
 /* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
     body {
-    background-color: pink;
+    /* background-color: grey; */
     /* margin-right: 10px; */
     max-width: 300px;  
 }
 
 .calc-container {
     width: 100%;
-    background-color:;
-    padding-right: 10%;
-    padding-left: 5%;
+    padding-right: 5%;
+    padding-left: 15%;
     margin-top: 5%;
     margin-bottom: 5%;
 }
