@@ -172,11 +172,19 @@ input {
 /* Responsive styles for mobile */
 @media only screen and (max-width: 600px) {
     body {
-    background-color: white;
+    background-color: pink;
     /* margin-right: 10px; */
     max-width: 300px;  
 }
 
+.calc-container {
+    width: 100%;
+    background-color:;
+    padding-right: 10%;
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
     footer {
         text-align: center;
     }
@@ -193,4 +201,5 @@ a {
     color: #61A4BC;
     text-decoration: none;
     padding-top: 20px;
+
 }
