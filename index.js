@@ -14,5 +14,5 @@ const resultOperation = document.getElementById("result")
             screen.value += x
         }
         function deleteValue() {
-          screen.value = screen.value.slice(0, -1);
+            screen.value = screen.value.slice(0, -1);
         }

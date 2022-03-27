@@ -6,7 +6,7 @@
 
 body {
     height: 100vh;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 /* Main container styles */
@@ -32,7 +32,7 @@ body {
 /* Header styles */
 header {
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     /* font-family: 'Ubuntu', sans-serif; */
     padding-top: 10px;
     padding-bottom: 10px;
@@ -46,19 +46,20 @@ header {
     width: 400px;
     height: 120px;
     border-radius: 8px;
-    background-color: black;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.05);
+    border: 2px solid #EDEDED;
     align-items: flex-end;
 }
 
 .screen1 {
-    background-color: black;
+    background-color: white;
     width: 400px;
     border-radius: 8px;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 600;
     margin-top: 20px;
     margin-bottom:20px;
-    font-weight: 400;
     height: 20px;
     position: relative;
     top: -40px;
@@ -70,7 +71,7 @@ header {
 }
 
 .screen2 {
-    background-color: black;
+    background-color: white;
     width: 200px;
     font-size: 28px;
     border-radius: 8px;
@@ -81,13 +82,14 @@ header {
 
 
 input {
-    color: white;
+    color: black;
     padding: 25px;
     font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     letter-spacing: 1.5px;
     text-align: right;
     border: 0;
+    font-weight: 700;
 }
 
 /* Calculator screen styles */
@@ -96,11 +98,12 @@ input {
     width: 400px;
     height: 100%;
     border-radius: 8px;
-    background-color: #F7E2E2;
     margin-top: 20px;
     margin-bottom: 10px;
     direction: row;
-    
+    background-color: #ffffff;
+    box-shadow: 10px 10px 15px 15px rgba(0, 0, 0, 0.05);
+    border: 2px solid #EDEDED;
 }
 
 /* Button styles */
@@ -117,7 +120,7 @@ input {
 .col {
     width: 60px;
     padding: 10px 28px 10px 28px;
-    background-color: white;
+    background-color: #F1F3F4;
     color: black;
     border: 1px solid white;
     margin-right: 15px;
@@ -125,24 +128,32 @@ input {
     margin-left: 20px;
     margin-top: 30px;
     padding-left: 25px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    border-radius: 8px;
+    font-weight: 600;
+    border-radius: 6px;
     cursor: pointer;
-    box-shadow: 2px 2px 1px 1px grey;
     font-size: 16px;
+
 }
 
 .delete {
-    border: 1px solid #1A132F;
-    color: white;
+    border: 1px solid #DADCE0;
+    color: black;
     padding-left: 15px;
-    background-color: #1A132F;
-    box-shadow: 2px 2px 1px 1px black;
+    background-color: #DADCE0;
+    font-weight: 600;
 }
 
 .other-buttons  {
     margin: 0 auto;
+}
+
+.sign {
+    background-color: #DADCE0;
+    color: white;
+    border: 1px solid #DADCE0;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
 }
 
 .btn {
@@ -154,24 +165,27 @@ input {
     margin-top:  20px;
     margin-left: 24px;
     width: 160px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
 }
 
 .reset {
-    background-color: #1A132F;
+    background-color: #DADCE0;
     color: white;
-    border: 1px solid #1A132F;
-    box-shadow: 2px 2px 1px 1px black;
+    border: 1px solid #DADCE0;
+    color: black;
+    border-radius: 6px;
+    font-weight: 600;
 }
 
 .equal {
-    background-color: #61A4BC;
-    border: 1px solid #61A4BC;
-    box-shadow: 2px 2px 1px 1px black;
+    background: linear-gradient(270deg, #3CBDFE 0%, #00AAFF 100%);
+    border: 1px solid ;
+    color: white;
+    border-radius: 6px;
+    font-weight: 600;
 }
 
 /* Responsive styles for mobile */
@@ -194,12 +208,11 @@ input {
 /* Footer styles */
 footer {
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 
 a {
-    color: #61A4BC;
+    color: linear-gradient(270deg, #3CBDFE 0%, #00AAFF 100%);
     text-decoration: none;
     padding-top: 20px;
 
