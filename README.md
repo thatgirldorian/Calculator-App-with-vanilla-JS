@@ -2,7 +2,7 @@
 This is a calculator app that allows you to do simple operations: addition, multiplication, subtraction and division. It's made with vanilla JS.
 
 <h3>Issues faced and Solutions:</h3>
-I did not know how to achieve the delete function at first, but after a ton of googling, I was able to use the slice method in the end. 
+I did not know how to achieve the delete function at first, but after a ton of googling, I was able to use the slice method in the end. I also did not know how to make the numbers pop up on the screen, but I was able to find a way to do this via the onClick event.
 
 <h3>Technology Used:</h3>
 
